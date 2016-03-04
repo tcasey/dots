@@ -1,0 +1,85 @@
+html, body, div, form{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+
+input, textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+  outline: none;
+  border: 0px;
+}
+input[type=checkbox] {
+  -webkit-appearance: checkbox;
+}
+body {
+  background-color: #ddd;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1;
+}
+form {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  padding: 15px;
+}
+input[type=text] {
+  width: 40px;
+}
+p {
+  font-family: sans-serif;
+  color: #666;
+  font-weight: 600;
+  text-align: right;
+  position: fixed;
+  z-index: 99;
+  right: 20px;
+  bottom: 20px;
+  font-size: 14px;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
+.disc {
+  position: fixed;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 1;
+}
+.color1 {
+  background-color: #1abc9c;
+}
+.color2 {
+  background-color: #3498db;
+}
+.color3 {
+  background-color: #34495e;
+}
+.color4 {
+  background-color: #e74c3c;
+}
+.color5 {
+  background-color: #d35400;
+}
+.color6 {
+  background-color: #322d2d;
+}
+.color7 {
+  background-color: #8a8888;
+}
+.color8 {
+  background-color: #6e3c7d;
+}
+.color9 {
+  background-color: #3c7d48;
+}
